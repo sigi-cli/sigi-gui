@@ -1,13 +1,13 @@
 [package]
-name = "sigi-gtk"
+name = "sigi-gui"
 version = "0.1.0"
 authors = ["J.R. Hill <hiljusti@so.dang.cool>"]
 edition = "2021"
 license = "GPL-2.0-only"
-description = "Sigi (GTK): An organizing tool and no-frills stack database."
+description = "Sigi (GUI): An organizing tool and no-frills stack database."
 readme = "README.md"
-homepage = "https://github.com/hiljusti/sigi-gtk"
-repository = "https://github.com/hiljusti/sigi-gtk"
+homepage = "https://github.com/hiljusti/sigi-gui"
+repository = "https://github.com/hiljusti/sigi-gui"
 # documentation = "TODO! Maybe github pages"
 keywords = ["organization", "planning", "stack", "todo", "cli"]
 categories = ["command-line-interface", "database-implementations"]
@@ -22,4 +22,7 @@ opt-level = 'z'
 
 [dependencies]
 sigi = "3.0.0"
-gtk4 = "^0.4.6"
+eframe = "0.16.0"
+
+gag = "1.0.0"
+csv = "1.1"
